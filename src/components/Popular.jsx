@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { FaArrowRightLong } from "react-icons/fa6";
 
+import card_icon from '../assets/icon/button add (lấy).svg'
+
 const Popular = () => {
     const API_POPULAR = 'https://localhost:7179/api/Trains_Info';
 
@@ -17,7 +19,7 @@ const Popular = () => {
             .then(response => {
                 const data = response.data;
 
-                const formattedData = data.slice(0, 1).map(item => {
+                const formattedData = data.slice(0, 6).map(item => {
                     const departureTime = new Date(item.departureTime);
                     const arrivalTime = new Date(item.arrivalTime);
                     const formattedDepartureTime = departureTime.toLocaleString('en-US', options);
@@ -58,8 +60,9 @@ const Popular = () => {
                             <span>-</span>
                             <p className='card_dop'>{item.formattedArrivalTime}</p>
                         </div>
-                        <div className='horizontal_rule'></div>
+                        <img className='card_icon' src={card_icon}/>
                         <div className='card_price'>
+                            <div className='horizontal_rule'></div>
                             <p><span>Từ</span> 943.000<span>đ</span></p>
                         </div>
                     </div>

@@ -6,7 +6,7 @@ import icon_user from '../assets/icon/user_icon.png';
 import icon_ticket from '../assets/icon/ticket_icon.png';
 
 import '../assets/css/header.css';
-import Login from './Register';
+import Login from './Login';
 
 const Navbar = () => {
     return (
