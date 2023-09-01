@@ -1,0 +1,8 @@
+.register_form {
+    width: 454px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 128px;
+    margin-top: 171px;
+}

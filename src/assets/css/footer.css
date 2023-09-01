@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+    list-style: none;
+    text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+#footer {
+    width: 1440px;
+    height: 462px;
+    position: absolute;
+    
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 110px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 188px;
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 118px;
+}
+.footer_license {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 188px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.footer-content .footer-about {
+    width: 293px;
+    margin-right: 10px;
+}
+
+.footer-about_logo {
+    display: flex;
+    width: 293px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 27px;
+    
+}
+
+.footer-about_logo > h1 {
+    font-size: 28px;
+    font-weight: 100;
+}
+
+.footer-about_logo > p {
+    line-height: 160%;
+    width: 270px;
+}
+
+.footer-content_container {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+
+.footer-content > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+    width: 133px;
+    height: 146px;
+}
+
+.footer-content >  ul > li.header {
+    margin-bottom: 4px;
+    color: #F6973F;
+    font-size: 17px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.content_fllowus  img.icon {
+    margin-right: 10px;
+}
+
+img.icon.icon_facebook {
+    padding-right: 10px;
+}
+
+.footer_rules {
+    display: flex;
+    gap: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
